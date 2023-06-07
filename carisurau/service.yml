@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: carisurau-service
 spec:
+  type: NodePort
   selector:
     app: carisurau
   ports:
